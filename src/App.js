@@ -41,7 +41,7 @@ class App extends Component {
   }
   componentDidMount(){
     
-    axios.get('https://server-musicbattle.herokuapp.com/api/auth/login/check')
+    axios.get('https://test-music-battle-server.herokuapp.com/api/auth/login/check')
     .then(res=>{
       console.log(res);
       this.setState({

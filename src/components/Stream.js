@@ -91,7 +91,7 @@ class App extends Component {
     }
     componentDidMount() {
         this.setState({
-           peer = new Peer({ key: 'peerjs',host:'mypeer1998.herokuapp.com',secure:true,port:443 })
+           peer : new Peer({ key: 'peerjs',host:'mypeer1998.herokuapp.com',secure:true,port:443 })
         })
         this.setState({
             socket: openSocket('https://server-musicbattle.herokuapp.com')

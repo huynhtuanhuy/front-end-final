@@ -21,7 +21,7 @@ class App extends Component {
     _onSubmit=(e)=>{
         e.preventDefault()
         console.log("bbbbb");
-        axios.post('https://server-musicbattle.herokuapp.com/api/auth/login',this.state)
+        axios.post('https://test-music-battle-server.herokuapp.com/api/auth/login',this.state)
         .then(res=>{
            
             // console.log("aaaaaaaaa");
